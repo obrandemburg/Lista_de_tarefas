@@ -1,6 +1,6 @@
-using Lista_de_tarefas.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using Lista_de_tarefas.ViewModels;
 
 namespace Lista_de_tarefas.Controllers
 {

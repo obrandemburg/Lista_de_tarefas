@@ -1,4 +1,4 @@
-namespace Lista_de_tarefas.Models
+namespace Lista_de_tarefas.ViewModels
 {
     public class ErrorViewModel
     {
