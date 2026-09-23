@@ -1,10 +1,10 @@
 ﻿namespace Lista_de_tarefas.Models
 {
-    public enum PRIORIDADE
+    public enum Prioridade
     {
-        baixa,
-        normal,
-        alta
+        Baixa,
+        Normal,
+        Alta
     };
     public class Tarefa
     {
@@ -13,7 +13,7 @@
         public string Descricao { get; set; } = String.Empty;
         public DateOnly DataCadastro { get; set; }
         public DateOnly DataExpiracao { get; set; }
-        public PRIORIDADE Prioridade { get; set; } = PRIORIDADE.normal;
+        public Prioridade Prioridade { get; set; } = Prioridade.Normal;
 
     }
 }
